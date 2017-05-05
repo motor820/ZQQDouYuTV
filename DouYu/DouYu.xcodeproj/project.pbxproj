@@ -52,6 +52,7 @@
 		7F4BCF581EBC71FA00BEE18C /* DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				7FA8A3AA1EBC786700ECDE63 /* Classes */,
 				7F4BCF591EBC71FA00BEE18C /* AppDelegate.swift */,
 				7F4BCF5D1EBC71FA00BEE18C /* Main.storyboard */,
 				7F4BCF601EBC71FA00BEE18C /* Assets.xcassets */,
@@ -59,6 +60,141 @@
 				7F4BCF651EBC71FA00BEE18C /* Info.plist */,
 			);
 			path = DouYu;
+			sourceTree = "<group>";
+		};
+		7FA8A3AA1EBC786700ECDE63 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8A3AB1EBC786700ECDE63 /* Home */,
+				7FA8A3B01EBC786700ECDE63 /* Main */,
+				7FA8A3B51EBC786700ECDE63 /* Room */,
+				7FA8A3B71EBC786700ECDE63 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7FA8A3AB1EBC786700ECDE63 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8A3AD1EBC786700ECDE63 /* Model */,
+				7FA8A3AE1EBC786700ECDE63 /* View */,
+				7FA8A3AC1EBC786700ECDE63 /* Controller */,
+				7FA8A3AF1EBC786700ECDE63 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7FA8A3AC1EBC786700ECDE63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7FA8A3AD1EBC786700ECDE63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FA8A3AE1EBC786700ECDE63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FA8A3AF1EBC786700ECDE63 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7FA8A3B01EBC786700ECDE63 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8A3B21EBC786700ECDE63 /* Model */,
+				7FA8A3B31EBC786700ECDE63 /* View */,
+				7FA8A3B11EBC786700ECDE63 /* Controller */,
+				7FA8A3B41EBC786700ECDE63 /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7FA8A3B11EBC786700ECDE63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7FA8A3B21EBC786700ECDE63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FA8A3B31EBC786700ECDE63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FA8A3B41EBC786700ECDE63 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7FA8A3B51EBC786700ECDE63 /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8A3B61EBC786700ECDE63 /* Controller */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		7FA8A3B61EBC786700ECDE63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7FA8A3B71EBC786700ECDE63 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7FA8A3B81EBC786700ECDE63 /* Extension */,
+				7FA8A3B91EBC786700ECDE63 /* Model */,
+				7FA8A3BA1EBC786700ECDE63 /* View */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7FA8A3B81EBC786700ECDE63 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7FA8A3B91EBC786700ECDE63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FA8A3BA1EBC786700ECDE63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
