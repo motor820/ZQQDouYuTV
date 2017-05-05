@@ -14,7 +14,6 @@
 		7F4BCF5A1EBC71FA00BEE18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4BCF591EBC71FA00BEE18C /* AppDelegate.swift */; };
 		7F4BCF5F1EBC71FA00BEE18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4BCF5D1EBC71FA00BEE18C /* Main.storyboard */; };
 		7F4BCF611EBC71FA00BEE18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4BCF601EBC71FA00BEE18C /* Assets.xcassets */; };
-		7FA8A3BC1EBC7A7200ECDE63 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA8A3BB1EBC7A7200ECDE63 /* MainTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		7F4BCF5E1EBC71FA00BEE18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F4BCF601EBC71FA00BEE18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F4BCF651EBC71FA00BEE18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FA8A3BB1EBC7A7200ECDE63 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTableViewController.swift; path = DouYu/Classes/Main/Controller/MainTableViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +60,7 @@
 			children = (
 				7FA8A3AA1EBC786700ECDE63 /* Classes */,
 				7F4BCF591EBC71FA00BEE18C /* AppDelegate.swift */,
+				7F4BCF5D1EBC71FA00BEE18C /* Main.storyboard */,
 				7F4BCF601EBC71FA00BEE18C /* Assets.xcassets */,
 				7F4BCF651EBC71FA00BEE18C /* Info.plist */,
 			);
@@ -133,11 +132,9 @@
 		7FA8A3B11EBC786700ECDE63 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7F4BCF5D1EBC71FA00BEE18C /* Main.storyboard */,
 				7F0878151EBC7ED00003A369 /* Profile.storyboard */,
 				7F0878121EBC7EBC0003A369 /* Follow.storyboard */,
 				7F0878101EBC7EA40003A369 /* Live.storyboard */,
-				7FA8A3BB1EBC7A7200ECDE63 /* MainTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,7 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA8A3BC1EBC7A7200ECDE63 /* MainTableViewController.swift in Sources */,
 				7F4BCF5A1EBC71FA00BEE18C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,7 +312,6 @@
 				7F4BCF5E1EBC71FA00BEE18C /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
