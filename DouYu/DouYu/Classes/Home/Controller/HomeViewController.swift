@@ -31,7 +31,7 @@ class HomeViewController: UIViewController {
         // 2. 确定子控制器
         var childVcs = [UIViewController]()
         childVcs.append(RecommendViewController())
-        childVcs.append(RoomShowViewController())
+        childVcs.append(GameViewController())
         childVcs.append(RoomShowViewController())
         childVcs.append(RoomShowViewController())
         
